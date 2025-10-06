@@ -5,6 +5,9 @@ import Form from "next/form"
 import styles from '@/assets/styles/Profile.module.css'
 
 export default function ProfileForm() {
+  const [name, setName] = useState("Ayomide Adesanys")
+  const [email, setEmail] = useState("adesanyanifesimi@gmail.com")
+  const [bio, setBio] = useState("I am an engineering student")
   const [disabled, setDisabled] = useState(true)
 
   const handleDisable = () => {
@@ -25,8 +28,9 @@ export default function ProfileForm() {
         <input
           id= "name" name = "name"
           type="text"
-          value="Ayomide Adesanya"
+          value={name}
           disabled={disabled}
+          onChange={(e) => setName(e.target.value)}
         />
       </div>
 
@@ -35,8 +39,9 @@ export default function ProfileForm() {
         <input
           id= "email" name = "email"
           type="email"
-          value="adesanyanifesimi@gmail.com"
+          value={email}
           disabled={disabled}
+          onChange={(e) => setEmail(e.target.value)} 
         />
       </div>
 
@@ -45,8 +50,9 @@ export default function ProfileForm() {
         <input
           id= "bio" name = "bio"
           type="text"
-          value="An engineering student"
+          value={bio}
           disabled={disabled}
+          onChange={(e) => setBio(e.target.value)}
         />
       </div>
 
