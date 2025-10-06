@@ -1,0 +1,73 @@
+.ProfileRoom{
+  /* border: 3px solid red; */
+  height: 95%;
+  margin-top: 2rem;
+}
+
+.ProfileRoom h1{
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.ImageContainer{
+  display: flex;
+  align-items: center;
+  /* border: 3px solid red; */
+  margin-bottom: 1rem;
+}
+
+.ImageContainer Image{
+  border-radius: 50%
+}
+
+.ImageContainer h1{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+/* Form component */
+.Details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+
+.Details label{
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.Details input{
+  width: 100%;
+  font-size: 1.2rem;
+  color: black;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 3px grey;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem
+}
+
+.ButtonContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  margin-top: 1rem;
+  /* border: 3px solid green; */
+}
+
+.ButtonContainer button{
+  width: 47%;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  background-color: rgb(6, 6, 38);
+  cursor: pointer;
+  padding: 0.7rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ButtonContainer button:hover{
+  background-color: rgba(6, 6, 38, 0.4);
+}

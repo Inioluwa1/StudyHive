@@ -1,0 +1,92 @@
+.DashboardContainer{
+  /* border: 3px solid blue; */
+  height: 100%
+}
+
+.ProfileContainer{
+  /* border: 3px solid red; */
+  width: 8rem;
+  /* padding: 0.5rem; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 2rem;
+  top: 1rem;
+}
+
+.Profile{
+  border-radius: 50%;
+  margin-right: 1rem;
+  border: 2px solid black;
+}
+
+.ProfileContainer h1{
+  font-size: 1.4rem;
+}
+
+.Dashboard{
+  /* border: 1px solid red; */
+  margin-top: 3rem;
+  height: 92%;
+}
+
+.Dashboard h1{
+  font-size: 2.4rem;
+  margin-bottom: 1.3rem;
+  font-weight: 600;
+}
+
+/* Joined Room component */
+.JoinedRooms{
+  margin-bottom: 1rem;
+  /* border: 1px solid green; */
+  margin-bottom: 1.5rem;
+}
+
+.JoinedRooms h2{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* New Room Component */
+.NewRoomForm{
+  /* border: 1px solid yellow; */
+  position: absolute;
+  bottom: 2.5rem;
+  width: 93%;
+}
+
+.NewRoomForm label{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.NewRoomInput{
+  display: flex;
+  align-items: center;
+}
+
+.NewRoomInput input{
+  width: 70%;
+  box-shadow: 2px 2px 4px grey;
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  margin-right: 1rem;
+}
+
+.NewRoomInput button{
+  width: 25%;
+  font-size: 1.45em;
+  border-radius: 7px;
+  background-color: rgb(6, 6, 38);
+  margin: 1rem 0;
+  cursor: pointer;
+  padding: 0.7rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.NewRoomInput button:hover{
+  background-color: rgba(6, 6, 38, 0.4);
+}

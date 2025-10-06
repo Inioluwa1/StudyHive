@@ -1,0 +1,81 @@
+.Container{
+  background-color: rgb(227, 227, 227);
+  text-align: center;
+  height: 100vh;
+  border: 2px solid green;
+}
+
+.AppContainer{
+  background-color: white;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+  border-radius: 5px;
+  width: 30%;
+  margin: 3rem auto;
+  padding: 4rem 2rem;
+  /* text-align: center */
+}
+
+.Header{
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem
+}
+
+.Details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+
+.Input{
+  width: 100%;
+  font-size: 1.2rem;
+  color: black;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 3px grey;
+  padding: 0.5rem;
+  margin-bottom: 1rem
+}
+
+.Forgotten{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Checkbox{
+  display: flex;
+}
+.Checkbox input{
+  width: 2rem;
+}
+
+.Checkbox label{
+  margin-left: 0.5rem
+}
+
+.Button{
+  width: 100%;
+  font-size: 1.2rem;
+  border-radius: 7px;
+  background-color: rgb(6, 6, 38);
+  margin: 1rem 0;
+  cursor: pointer;
+  padding: 0.8rem;
+  color: white;
+  font-weight: 500;
+}
+
+.Button:hover{
+  background-color: rgba(6, 6, 38, 0.4);
+}
+
+.Signin{
+  font-size: 1.3rem;
+}
+
+.Link{
+  color: rgb(34, 34, 90);
+}
